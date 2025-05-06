@@ -12,7 +12,7 @@ import jakarta.persistence.ManyToMany;
 public class post_graduate extends Person {
 	@Id
 	private String id;
-	private String institute;
+	
 	private String research_interest;
 	private String second_degree;
 	
