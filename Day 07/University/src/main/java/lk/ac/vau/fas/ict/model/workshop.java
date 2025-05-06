@@ -13,8 +13,7 @@ public class workshop {
     @Id
 	private String id;
 	private String description;
-	private Date end_date;
-	private String name;
+	
 	private Date start_date;
 	
 }
