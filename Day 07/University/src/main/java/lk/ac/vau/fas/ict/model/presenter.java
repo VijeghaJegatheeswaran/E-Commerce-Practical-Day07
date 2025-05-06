@@ -11,7 +11,7 @@ import jakarta.persistence.ManyToMany;
 @Entity
 public class presenter extends Person {
 	@Id
-	private String id;
+	
 	private String affiliation;
 	private String country;
 	private String job_title;
