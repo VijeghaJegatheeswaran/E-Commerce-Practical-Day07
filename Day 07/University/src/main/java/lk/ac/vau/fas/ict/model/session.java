@@ -13,7 +13,7 @@ import jakarta.persistence.ManyToMany;
 @Entity
 public class session {
 	@Id
-	
+	private String id;
 	private Date date;
 	private String description;
 	private String name;
